@@ -1,0 +1,45 @@
+.hero {
+  position: relative; /* needed to position children absolutely */
+  height: 60vh; /* fixed height, adjust as needed */
+  width: 100vw;
+  overflow: hidden;
+}
+
+.carousel-container {
+  position: absolute; /* position slider absolutely inside hero */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  z-index: 1; /* behind hero content */
+}
+
+.hero-content {
+  position: absolute; /* position text/buttons absolutely */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10; /* on top */
+  color: white; /* visible on images */
+  text-align: center;
+  padding: 0 20px;
+  max-width: 90vw;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5em;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5em;
+}
+
+.hero-buttons .btn {
+  font-weight: 600;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  margin: 0 10px;
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "image": "https://www.koskii.com/cdn/shop/files/RM-Desktop_dac9eecc-a483-4a07-beac-3a469b1e0f0e.jpg?v=1754918824&width=1920",
+    "path": "https://example.com/page1"
+  },
+  {
+    "image": "https://www.koskii.com/cdn/shop/files/DM--Desktop_1.jpg?v=1754918825&width=1920",
+    "path": "https://example.com/page2"
+  },
+  {
+    "image": "https://www.koskii.com/cdn/shop/files/Saree--Desktop.jpg?v=1754918825&width=1920",
+    "path": "https://example.com/page3"
+  },
+  {
+    "image": "https://www.koskii.com/cdn/shop/files/Saree--Desktop.jpg?v=1754918825&width=1920",
+    "path": "https://example.com/page4"
+  }
+]
